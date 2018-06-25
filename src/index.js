@@ -70,7 +70,7 @@ const Dropdown = styled.div`
   height: 0;
 
   .content {
-    min-height: 106px;
+    min-height: 96px;
     display: none;
     //position: relative;    
     background: white;
@@ -92,7 +92,7 @@ const VCenterWrapper = styled.div`
   display: flex;  
   align-items: center;
   justify-content: center;
-  height: 106px;
+  height: 86px;
 `;
 
 const Indicator = styled.div`
