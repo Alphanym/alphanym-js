@@ -365,7 +365,7 @@ class FeedbackDropdown extends React.Component {
                    onChange={ this.editFeedback.bind(this) }
                    onKeyPress={ this.handleEnterFeedback.bind(this) }
                    spellCheck={ false }
-                   autocomplete="off"
+                   autoComplete="off"
                    />
                 </NameConfirmationQuestionWrapper>
               </NameConfirmationInputWrapper>
@@ -449,7 +449,7 @@ export class AlphanymField extends React.Component {
            onKeyPress={ this.handleEnter.bind(this) }
            onChange={ this.handleChange.bind(this) }
            spellCheck={ false }
-           autocomplete="off"
+           autoComplete="off"
            />
           <AlphanymLink href='https://www.alphanym.com' tabIndex='-1'>
             <LogoWrapper>
