@@ -1,10 +1,10 @@
 {
   "name": "alphanym-js",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Alphanym name input field React component",
   "main": "lib/index.js",
   "files": [
-    "js"
+    "lib"
   ],
   "scripts": {
     "build": "nwb build-react-component",
