@@ -1,6 +1,6 @@
 {
   "name": "alphanym-js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Alphanym name input field React component",
   "main": "lib/index.js",
   "files": [
