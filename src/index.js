@@ -70,7 +70,7 @@ const Dropdown = styled.div`
   height: 0;
 
   .content {
-    min-height: 98px;
+    min-height: 108px;
     display: none;
     //position: relative;    
     background: white;
@@ -92,7 +92,7 @@ const VCenterWrapper = styled.div`
   display: flex;  
   align-items: center;
   justify-content: center;
-  height: 98px;
+  height: 108px;
 `;
 
 const Indicator = styled.div`
@@ -151,19 +151,10 @@ const ConfirmNameWrapper = styled.div`
   width: 100%;
 `;
 
-const CorrectNameWrapper = styled.div`
-`;
-
-const SuggestedName = styled.span`
-  color: #7f38ff;
-  white-space: nowrap;
-`;
-
 const DropdownMessage = styled.p`
   text-align: left;
   font-size: 0.9em;
-  margin: 0 0 0.5em 0;
-  white-space: nowrap;
+  margin: 0 0 0.75em 0;
 `;
 
 const NameConfirmationQuestionWrapper = styled.div`  
@@ -182,7 +173,7 @@ const NameConfirmationInputWrapper = styled.div`
 
 const ConfirmButton = styled.a`  
   cursor: pointer;
-  margin-left: 1em;
+  margin-left: 0.75em;
   user-select: none;
   font-size: 0.9em;
   color: #56dd8e;
