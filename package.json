@@ -1,14 +1,8 @@
 {
   "name": "alphanym-js",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Alphanym name input field React component",
-  "main": "lib/index.js",
-  "files": [
-    "css",
-    "es",
-    "lib",
-    "umd"
-  ],
+  "main": "src/index.js",
   "scripts": {
     "build": "nwb build-react-component",
     "clean": "nwb clean-module",
@@ -36,6 +30,7 @@
   "license": "MIT",
   "repository": "",
   "keywords": [
-    "react-component"
+    "react-component",
+    "alphanym"
   ]
 }
