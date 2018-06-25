@@ -12,4 +12,4 @@ This ensures you will always know the best way to refer to your customers, regar
 
 ## Integration
 
-The Alphanym [Example App](https://github.com/Alphanym/alphanym-example-app) demonstrates a full-stack integration with the Alphanym service.
+The [Alphanym Example App](https://github.com/Alphanym/alphanym-example-app) demonstrates a full-stack integration with the Alphanym service.
