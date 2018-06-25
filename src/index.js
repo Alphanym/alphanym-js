@@ -70,7 +70,7 @@ const Dropdown = styled.div`
   height: 0;
 
   .content {
-    min-height: 96px;
+    min-height: 98px;
     display: none;
     //position: relative;    
     background: white;
@@ -92,7 +92,7 @@ const VCenterWrapper = styled.div`
   display: flex;  
   align-items: center;
   justify-content: center;
-  height: 86px;
+  height: 98px;
 `;
 
 const Indicator = styled.div`
@@ -176,6 +176,7 @@ const NameConfirmationInputWrapper = styled.div`
   justify-content: center;
   align-items: center;
   margin: 0;
+  margin-top: -0.4em;
   flex-grow: 2;
 `;
 
