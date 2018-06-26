@@ -155,6 +155,7 @@ const DropdownMessage = styled.p`
   text-align: left;
   font-size: 0.9em;
   margin: 0 0 0.75em 0;
+  text-align: center;
 `;
 
 const NameConfirmationQuestionWrapper = styled.div`  
