@@ -45,7 +45,7 @@ Callback triggered when the field has been filled out. The callback is passed an
 ```
 
 #### results
-An object detailing Alphanym's interpretation of the name. This should default to an empty object when a query request hasn't been set yet.   
+The response object from the body of a successful query. This should default to an empty object when a query request hasn't been sent yet.   
 
 #### loading
 A Boolean value which plays the loading animation.
