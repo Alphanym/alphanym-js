@@ -35,11 +35,12 @@ Callback triggered when the field should query the API. The callback is passed t
 #### onComplete
 Callback triggered when the field has been filled out. The callback is passed an object with `name` and `betanym` fields.
 
+##### Example JSON
 ```json
 {
-  version: '1.0.1',
-  name: 'Charles Darwin',
-  betanym: 'Charles'
+  "version": "1.0.1",
+  "name": "Charles Darwin",
+  "betanym": "Charles"
 };
 ```
 
@@ -52,11 +53,12 @@ A Boolean value which plays the loading animation.
 #### onFeedback (Optional)
 Callback for sending feedback, when Alphanym interprets a name incorrectly. The callback is passed an object with `name` and `betanym` fields.
 
+##### Example JSON
 ```json
 {
-  version: '1.0.1',
-  name: 'Charles Darwin',
-  betanym: 'Charles'
+  "version": "1.0.1",
+  "name": "Charles Darwin",
+  "betanym": "Charles"
 };
 ```
 
