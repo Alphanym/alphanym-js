@@ -315,14 +315,14 @@ class FeedbackDropdown extends React.Component {
     return trim(this.getFeedback().replace(/\s+/g,' '));
   }
 
-  handleComplete() {
+  handleComplete(dontSendFeedback) {
     const names = {
       version: Version,
       name: this.props.results.name,
       betanym: this.getBetanym(),
     };
 
-    if (this.props.onFeedback !== undefined && this.state.feedback !== null) {
+    if ((this.props.onFeedback !== undefined) && (dontSendFeedback !== true)) {
       this.props.onFeedback(names);
     }
 
@@ -331,7 +331,7 @@ class FeedbackDropdown extends React.Component {
 
   handleClickOutside(event) {
     if (this.getDropdownState.bind(this)() === 'confirm') {
-      return this.handleComplete.bind(this)();
+      return this.handleComplete.bind(this)(true);
     }
   }
 
