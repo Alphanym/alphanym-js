@@ -13,3 +13,59 @@ This ensures you will always know the best way to refer to your customers, regar
 ## Integration
 
 The [Alphanym Example App](https://github.com/Alphanym/alphanym-example-app) demonstrates a full-stack integration with the Alphanym service.
+
+```jsx
+...
+
+<AlphanymField
+ onQuery={ this.handleQuery }
+ onComplete={ this.handleComplete }
+ results={ queryResults }
+ loading={ queryLoading }
+ />
+
+...
+```
+
+## Attributes 
+
+#### onQuery
+Callback triggered when the field should query the API. The callback is passed the raw name text as its first argument.
+
+#### onComplete
+Callback triggered when the field has been filled out. The callback is passed an object with `name` and `betanym` fields.
+
+##### Example JSON
+```json
+{
+  "version": "1.0.1",
+  "name": "Charles Darwin",
+  "betanym": "Charles"
+};
+```
+
+#### results
+The response object from the body of a successful query. This should default to an empty object when a query request hasn't been sent yet.   
+
+#### loading
+A Boolean value which plays the loading animation.
+
+#### onFeedback (Optional)
+Callback for sending feedback, when Alphanym interprets a name incorrectly. The callback is passed an object with `name` and `betanym` fields.
+
+##### Example JSON
+```json
+{
+  "version": "1.0.1",
+  "name": "Charles Darwin",
+  "betanym": "Charles"
+};
+```
+
+#### font (Optional)
+The CSS value used for the font.
+
+#### debounceTimeout (Optional)
+Milliseconds before the field automatically sends a query.
+
+
